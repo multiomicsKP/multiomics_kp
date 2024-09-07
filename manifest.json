@@ -1,0 +1,22 @@
+{
+    "version": "0.2.1",
+    "__metadata__": {
+        "license_url": "",
+        "license": "CC BY 4.0",
+        "url": ""
+    },
+    "dumper": {
+        "data_url": [
+            "https://db.systemsbiology.net/gestalt/KG/Multiomics_KG_edges_v0.2.1.tsv",
+            "https://db.systemsbiology.net/gestalt/KG/Multiomics_KG_nodes_v0.2.1.tsv"
+        ],
+        "uncompress": false,
+        "release": "version:get_release"
+    },
+    "uploaders": [{
+        "name": "multiomics_multiomics_kp",
+        "parser": "file_parser:load_data",
+        "on_duplicates": "ignore"
+    }
+    ]
+}

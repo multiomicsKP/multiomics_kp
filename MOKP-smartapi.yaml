@@ -29,7 +29,7 @@ info:
     pathfinderquery: false
     operations:
       - lookup
-    test_data_location: https://multiomics.rtx.ai:9990/dakp/sri_test_triples
+    test_data_location: https://multiomics.rtx.ai:9990/mokp/sri_test_triples
     externalDocs:
       description: >-
         The values for version are restricted according to the regex in

@@ -46,6 +46,9 @@ servers:
   - url: https://multiomics.test.transltr.io/mokp
     description: MOKP TRAPI 1.5 endpoint - testing
     x-maturity: testing
+  - description: MOKP TRAPI 1.5 endpoint - production
+    url: https://multiomics.transltr.io/mokp
+    x-maturity: production
 externalDocs:
   description: >-
     Documentation for the NCATS Biomedical Translator Reasoners web services

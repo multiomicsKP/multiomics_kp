@@ -1,7 +1,7 @@
 openapi: 3.0.1
 info:
   description: TRAPI 1.5 endpoint for the Multiomics KP, an NCATS Biomedical Translator Knowledge Provider
-  version: 1.0.0
+  version: 1.1.0
   title: Multiomics KP - TRAPI 1.5.0
   contact:
     email: gglusman@systemsbiology.org
